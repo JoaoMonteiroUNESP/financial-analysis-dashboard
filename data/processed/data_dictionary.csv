@@ -1,0 +1,47 @@
+Conjunto,Variavel,Descricao,Unidade,Tipo,Formula_ou_Origem
+DRE,Receita_Liquida,Receita líquida de vendas,R$ mil,Observado,Linha publicada na DRE consolidada
+DRE,Custo_Produtos_Vendidos,Custos dos produtos vendidos e serviços prestados,R$ mil,Observado,Linha publicada com sinal negativo
+DRE,Lucro_Bruto,Lucro bruto,R$ mil,Observado,Receita_Liquida + Custo_Produtos_Vendidos
+DRE,Despesas_Vendas_Administrativas_Gerais,Despesas de vendas administrativas e gerais,R$ mil,Observado,Linha publicada com sinal negativo
+DRE,Outras_Receitas_Despesas_Operacionais_Liquidas,Outras receitas ou despesas operacionais líquidas,R$ mil,Observado,Linha publicada com sinal contábil
+DRE,Resultado_Operacional,Lucro operacional antes do resultado financeiro,R$ mil,Observado,Receita + CPV + despesas VAG + outras operacionais
+DRE,Resultado_Financeiro,Resultado financeiro líquido,R$ mil,Observado,Linha publicada com sinal contábil
+DRE,Lucro_Antes_IR_CS,Lucro antes do imposto de renda e contribuição social,R$ mil,Observado,Resultado_Operacional + Resultado_Financeiro
+DRE,Imposto_Renda_Contribuicao_Social,Imposto de renda e contribuição social,R$ mil,Observado,Linha publicada com sinal negativo
+DRE,Lucro_Liquido,Lucro líquido do exercício,R$ mil,Observado,Lucro_Antes_IR_CS + Imposto_Renda_Contribuicao_Social
+Balanco,Caixa_Equivalentes,Caixa e equivalentes de caixa,R$ mil,Observado,Linha circulante publicada
+Balanco,Contas_Receber_Clientes_Circulante,Contas a receber de clientes no circulante,R$ mil,Observado,Linha circulante publicada
+Balanco,Estoques,Estoques,R$ mil,Observado,Linha publicada
+Balanco,Ativo_Circulante,Total do ativo circulante,R$ mil,Observado,Subtotal publicado
+Balanco,Ativo_Nao_Circulante,Total do ativo não circulante,R$ mil,Observado,Subtotal publicado
+Balanco,Ativo_Total,Total do ativo,R$ mil,Observado,Total publicado
+Balanco,Passivo_Circulante,Total do passivo circulante,R$ mil,Observado,Subtotal publicado
+Balanco,Passivo_Nao_Circulante,Total do passivo não circulante,R$ mil,Observado,Subtotal publicado
+Balanco,Patrimonio_Liquido,Total do patrimônio líquido,R$ mil,Observado,Total publicado
+Balanco,Emprestimos_Circulante,Empréstimos no passivo circulante,R$ mil,Observado,Linha publicada
+Balanco,Emprestimos_Nao_Circulante,Empréstimos no passivo não circulante,R$ mil,Observado,Linha publicada
+Balanco,Arrendamentos_Circulante,Passivos de arrendamento circulantes,R$ mil,Observado,Linha publicada
+Balanco,Arrendamentos_Nao_Circulante,Passivos de arrendamento não circulantes,R$ mil,Observado,Linha publicada
+Balanco,Divida_Bruta,Dívida financeira bruta incluindo arrendamentos,R$ mil,Calculado,Empréstimos circulantes + não circulantes + arrendamentos circulantes + não circulantes
+Balanco,Capital_Terceiros,Obrigações totais com terceiros,R$ mil,Calculado,Passivo_Circulante + Passivo_Nao_Circulante
+FluxoCaixa,Fluxo_Operacional,Caixa líquido das atividades operacionais,R$ mil,Observado,Linha publicada
+FluxoCaixa,Fluxo_Investimento,Caixa líquido das atividades de investimento,R$ mil,Observado,Linha publicada
+FluxoCaixa,Fluxo_Financiamento,Caixa líquido das atividades de financiamento,R$ mil,Observado,Linha publicada
+FluxoCaixa,Variacao_Caixa,Aumento ou redução de caixa e equivalentes,R$ mil,Observado,Linha publicada
+FluxoCaixa,Aquisicao_Imobilizado,Aquisição de ativo imobilizado,R$ mil,Observado,Valor absoluto da saída publicada
+FluxoCaixa,Aquisicao_Intangivel,Aquisição de ativo intangível,R$ mil,Observado,Valor absoluto da saída publicada
+FluxoCaixa,CAPEX,Dispêndios de capital considerados no estudo,R$ mil,Calculado,Aquisicao_Imobilizado + Aquisicao_Intangivel
+FluxoCaixa,Free_Cash_Flow,Fluxo de caixa livre simplificado,R$ mil,Calculado,Fluxo_Operacional - CAPEX
+Indicadores,Liquidez_Corrente,Liquidez corrente,Razão,Calculado,Ativo_Circulante / Passivo_Circulante
+Indicadores,Liquidez_Seca,Liquidez seca,Razão,Calculado,(Ativo_Circulante - Estoques) / Passivo_Circulante
+Indicadores,Margem_Bruta,Margem bruta,Decimal,Calculado,Lucro_Bruto / Receita_Liquida
+Indicadores,Margem_Operacional,Margem operacional,Decimal,Calculado,Resultado_Operacional / Receita_Liquida
+Indicadores,Margem_Liquida,Margem líquida,Decimal,Calculado,Lucro_Liquido / Receita_Liquida
+Indicadores,ROA,Retorno sobre o ativo com saldo final,Decimal,Calculado,Lucro_Liquido / Ativo_Total
+Indicadores,ROE,Retorno sobre o patrimônio com saldo final,Decimal,Calculado,Lucro_Liquido / Patrimonio_Liquido
+Indicadores,Giro_Ativo,Giro do ativo com saldo final,Razão,Calculado,Receita_Liquida / Ativo_Total
+Indicadores,Capital_Giro_Liquido,Capital de giro líquido,R$ mil,Calculado,Ativo_Circulante - Passivo_Circulante
+Indicadores,Endividamento_Geral,Capital de terceiros sobre o ativo,Decimal,Calculado,(Passivo_Circulante + Passivo_Nao_Circulante) / Ativo_Total
+Indicadores,Composicao_Endividamento,Parcela circulante do capital de terceiros,Decimal,Calculado,Passivo_Circulante / (Passivo_Circulante + Passivo_Nao_Circulante)
+Indicadores,Divida_Bruta_sobre_Ativo,Dívida bruta sobre o ativo,Decimal,Calculado,Divida_Bruta / Ativo_Total
+Indicadores,Free_Cash_Flow,Fluxo de caixa livre simplificado,R$ mil,Calculado,Fluxo_Operacional - CAPEX

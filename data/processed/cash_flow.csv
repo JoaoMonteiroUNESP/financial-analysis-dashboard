@@ -1,0 +1,5 @@
+Ano,Fluxo_Operacional,Fluxo_Investimento,Fluxo_Financiamento,Variacao_Caixa,Aquisicao_Imobilizado,Aquisicao_Intangivel,CAPEX,Free_Cash_Flow,Unidade_Monetaria,Demonstrativo_Origem,Arquivo_Fonte,Observacao_Reapresentacao
+2021,1293167,-586623,-99097,607447,542821,38609,581430,711737,R$ mil,Demonstração dos fluxos de caixa consolidada,basf_sa_financial_statements_2021.pdf,Valores de 2021 confirmados também na coluna comparativa da publicação de 2022.
+2022,-319007,-575997,37476,-857528,494189,239,494428,-813435,R$ mil,Demonstração dos fluxos de caixa consolidada,basf_sa_financial_statements_2023.pdf,Usada a coluna comparativa publicada em 2023; há reclassificações frente à publicação original de 2022 sem marca explícita de reapresentação no PDF resumido.
+2023,878168,-505867,-717358,-345057,454658,4045,458703,419465,R$ mil,Demonstração dos fluxos de caixa consolidada,basf_sa_financial_statements_2024.pdf,Período 2023 explicitamente identificado como reapresentado na publicação de 2024.
+2024,3131759,-436822,-1870456,824481,382734,24660,407394,2724365,R$ mil,Demonstração dos fluxos de caixa consolidada,basf_sa_financial_statements_2024.pdf,Período corrente.
