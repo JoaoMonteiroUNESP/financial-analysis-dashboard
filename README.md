@@ -41,6 +41,27 @@ O dashboard responde a perguntas descritivas:
 - textos analíticos determinísticos, sem diagnóstico gerado por IA;
 - mensagens claras para schema ou arquivos inválidos.
 
+## Demonstração
+
+Aplicação publicada no Streamlit Community Cloud:
+
+**[Acessar o dashboard](https://joao-financial-analysis.streamlit.app/)**
+
+### Visão geral
+
+![Visão geral do dashboard](docs/screenshots/overview.png)
+
+### Balanço e estrutura patrimonial
+
+![Análise do balanço e da estrutura patrimonial](docs/screenshots/balance-sheet.png)
+
+### Indicadores de estrutura financeira
+
+![Indicadores financeiros e sinais de atenção](docs/screenshots/financial-indicators.png)
+
+### Metodologia e validações
+
+![Validações contábeis automáticas](docs/screenshots/methodology-validations.png)
 ## Tecnologias
 
 - Python 3.11 ou 3.12
