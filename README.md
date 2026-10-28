@@ -242,9 +242,7 @@ A tolerância é de R$ 1 mil, compatível com o arredondamento das publicações
 
 ## Screenshots
 
-O primeiro commit não inclui imagens: `docs/screenshots/` contém apenas um `.gitkeep`. Capturas da
-instância pública poderão ser adicionadas depois do deploy, sem incorporar documentos-fonte,
-caminhos locais ou sessões do navegador.
+As capturas de tela da aplicação estão disponíveis na seção **Demonstração** deste README e em `docs/screenshots/`. As imagens ilustram o dashboard com dados públicos e não contêm documentos internos da BASF.
 
 ## Deploy no Streamlit Community Cloud
 
@@ -261,8 +259,8 @@ responsável.
 
 ## Próximos passos
 
-- publicar uma demonstração no Streamlit Community Cloud;
-- adicionar screenshots reais após a publicação;
+- monitorar e manter a demonstração publicada no Streamlit Community Cloud;
+- manter as capturas de tela em sincronia com a aplicação;
 - automatizar a extração de novas demonstrações, mantendo revisão humana da proveniência;
 - ampliar testes de regressão visual quando houver um ambiente de CI com navegador.
 
